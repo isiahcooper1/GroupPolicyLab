@@ -50,7 +50,7 @@ This lab demonstrates practical system administration skills including identity 
 <img src="https://github.com/user-attachments/assets/af3a0103-a3d2-449d-b43d-a3247a1b1234" height="80%" width="80%" alt="Password Policy GPO Linked to Domain"/>
 <br />
 <br />
-<img src="Project 1 34" src="https://github.com/user-attachments/assets/3a332561-eb52-4637-9f45-8dd5cdfbc9b3" height="80%" width="80%" alt="Password Policy GPO"/>
+<img src="https://github.com/user-attachments/assets/3a332561-eb52-4637-9f45-8dd5cdfbc9b3" height="80%" width="80%" alt="Password Policy GPO"/>
 <br />
 <br />
 6. Configured workstation restrictions using Group Policy linked to the Workstations Organizational Unit.  <br/>
