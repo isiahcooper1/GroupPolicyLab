@@ -31,34 +31,38 @@ This lab demonstrates practical system administration skills including identity 
 
 <p align="center">
 1. Created Organizational Units (OUs) within the corp.lab domain to organize users and computers by department. <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/948663bb-ab0b-4664-9eb1-2a5e62de0fb1" height="80%" width="80%" alt="Organizational Units"/>
 <br />
 <br />
 2. Created multiple domain user accounts to simulate employees across different departments.  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/3094e2e9-7b37-4e75-8853-c0376093e492" height="80%" width="80%" alt="Domain Users"/>
 <br />
 <br />
 3. Implemented Role-Based Access Control (RBAC) using Active Directory security groups. <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/3e057cd1-ac62-4bda-8081-cf8c20815b11" height="80%" width="80%" alt="OU Structure with Sydney IT Group"/>
 <br />
 <br />
-4. Created and configured Group Policy Objects (GPOs) using Group Policy Management Console.  <br/>
+4. Created an IT department shared directory on DC01 and configured NTFS permissions using the Sydney_IT_Admins security group. Verified access by mapping the network drive from the IT user's profile on the domain-joined client.<br/>
+<img src="https://github.com/user-attachments/assets/e1ea985f-4254-4711-a6e3-1a205f462192" height="80%" width="80%" alt="Shared Drive"/>
+<br />
+<br />
+5. Created and configured Group Policy Objects (GPOs) using Group Policy Management Console.  <br/>
 <img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-5. Configured workstation restrictions using Group Policy linked to the Workstations Organizational Unit.  <br/>
+6. Configured workstation restrictions using Group Policy linked to the Workstations Organizational Unit.  <br/>
 <img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-6. Implemented PowerShell automation to streamline user account creation.  <br/>
+7. Implemented PowerShell automation to streamline user account creation.  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-7. Verified Group Policy application on the domain client machine.  <br/>
+8. Verified Group Policy application on the domain client machine.  <br/>
 <img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-7. Verified Group Policy application on the domain client machine.  <br/>
+9. Verified Group Policy application on the domain client machine.  <br/>
 <img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
