@@ -25,14 +25,14 @@ Deployed a simulated enterprise Active Directory environment using Microsoft Hyp
 
 <p align="center">
 1. DC01 and WS01 are running on an isolated internal Hyper-V switch (AD-Lab-Internal), simulating a segmented enterprise network with no external exposure. <br/>
-<img src="https://github.com/user-attachments/assets/948663bb-ab0b-4664-9eb1-2a5e62de0fb1" height="80%" width="80%" alt="Organizational Units"/>
+<img src=""/>
 <br />
 <br />
 2. Organizational Units are structured by department (IT, HR, Finance) with sub-OUs under IT for Admins and Helpdesk, reflecting a real delegation model. <br/>
 <img src="https://github.com/user-attachments/assets/3094e2e9-7b37-4e75-8853-c0376093e492" height="80%" width="80%" alt="Domain Users"/>
 <br />
 <br />
-3. Five domain user accounts provisioned across departments using a firstname.lastname naming convention and placed in their corresponding OUs for policy scoping. <br/>
+3. Domain user accounts were created using a PowerShell script that imports user data from a CSV file, automatically provisioning each account into the correct Organizational Unit and security group without manual intervention. <br/>
 <img src="https://github.com/user-attachments/assets/3e057cd1-ac62-4bda-8081-cf8c20815b11" height="80%" width="80%" alt="OU Structure with Sydney IT Group"/>
 <br />
 <br />
