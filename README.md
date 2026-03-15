@@ -1,13 +1,7 @@
-<h1>Active Directory Administration & Group Policy Management</h1>
+<h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-This project builds on the infrastructure created in Project 1: Virtual Home Lab.
-<br>
-<br>
-The objective of this lab was to simulate common Active Directory administrative tasks performed in enterprise environments. Tasks included creating Organizational Units (OUs), managing domain user accounts, implementing role-based access control using security groups, and enforcing centralized security policies using Group Policy.
-<br>
-<br>
-This lab demonstrates practical system administration skills including identity management, centralized configuration management, and automation using PowerShell.
+Deployed a simulated enterprise Active Directory environment using Microsoft Hyper-V to practice core identity and access management skills. The lab includes a Windows Server 2022 domain controller, a Windows 11 domain-joined workstation, a structured Organizational Unit hierarchy, domain users and security groups, and three enforced Group Policy Objects modeled after real-world security baselines. This environment mirrors what an administrator would manage in a small-to-mid size on-premises or hybrid organization.
 <br>
 <br>
 
