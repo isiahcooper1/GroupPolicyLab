@@ -25,7 +25,7 @@ Deployed a simulated enterprise Active Directory environment using Microsoft Hyp
 
 <p align="center">
 1. DC01 and WS01 are running on an isolated internal Hyper-V switch (AD-Lab-Internal), simulating a segmented enterprise network with no external exposure. <br/>
-<img src="" height="80%" width="80%" alt="Network"/>
+<img src="https://github.com/user-attachments/assets/9de55fe6-ae18-451e-ab05-fefb26d657ec" height="80%" width="80%" alt="Network"/>
 <br />
 <br />
 2. Organizational Units are structured by department (IT, HR, Finance) with sub-OUs under IT for Admins and Helpdesk, reflecting a real delegation model. <br/>
