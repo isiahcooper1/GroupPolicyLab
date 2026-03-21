@@ -48,19 +48,19 @@ Deployed a simulated enterprise Active Directory environment using Microsoft Hyp
 <br />
 <br />
 6. User configuration policy prohibiting access to Control Panel and PC Settings, scoped exclusively to the HR OU to limit user-side system changes.  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/9133ff4c-c3b8-4739-9e23-df4f74397355" height="80%" width="80%" alt="Control Panel Policy"/>
 <br />
 <br />
 7. System Properties on WS01 confirming successful domain join to corp.local, with DC01 serving as the authenticating domain controller.  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/9bf162b3-8717-49d8-9201-b781d4738820" height="80%" width="80%" alt="Domain-Joined PC"/>
 <br />
 <br />
 8. Command-line verification showing all three GPOs applied to the workstation, confirming correct linking, scope, and inheritance.  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/e3137365-5eb8-4d4d-ab46-37d35e233d61" height="80%" width="80%" alt="CLI verification"/>
 <br />
 <br />
 9. HR domain user account receiving an access restriction when attempting to open Control Panel, confirming the GPO is applying correctly at the user level.  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f45d879c-2fc2-4a88-990d-3df2dd1a0f83" height="80%" width="80%" alt="Restricted Access"/>
 </p>
 
 <!--
